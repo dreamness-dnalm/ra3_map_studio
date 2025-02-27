@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dhdeurhhc7ycu"]
+
+[ext_resource type="Script" path="res://scenes/MapTextureRect/MapTextureRect.cs" id="1_wgtqw"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_l1ej1"]
+
+[node name="MapTextureRect" type="TextureRect"]
+texture = SubResource("ImageTexture_l1ej1")
+script = ExtResource("1_wgtqw")
